@@ -1,8 +1,54 @@
 {
   "version": 2,
-  "dgSpecHash": "+bSvtxICee8H22d+H0RvH2n3/WS5C3IoUROJYqMjHNSKoAVaha0etfgen6NDyBREpLcRtQfCesbq17CNviNMpw==",
-  "success": true,
+  "dgSpecHash": "SC2N4adybxonJkXIH7fvwsCESJdpk1N22L6t5RRljl4POiqbdC4D0hwzPjfZEmGRatzb5Z9onjZCyrrBcQ4CHw==",
+  "success": false,
   "projectFilePath": "C:\\Users\\tiago\\source\\repos\\ControleDeContatos\\ControleDeContatos\\ControleDeContatos.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.8\\microsoft.entityframeworkcore.design.6.0.8.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.8\\microsoft.entityframeworkcore.sqlserver.6.0.8.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.8\\microsoft.entityframeworkcore.tools.6.0.8.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tiago\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 6.0.8 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.EntityFrameworkCore 6.0.8 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 6.0.8 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.EntityFrameworkCore.SqlServer 6.0.8 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Design 6.0.8 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.EntityFrameworkCore.Design 6.0.8 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Tools 6.0.8 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Package Microsoft.EntityFrameworkCore.Tools 6.0.8 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

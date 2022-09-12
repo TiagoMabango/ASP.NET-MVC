@@ -1,3 +1,5 @@
+using ControleDeContatos.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,3 +23,10 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+void ConfigureServices(IServiceCollection services)
+{
+    services.AddControllersWithViews();
+    services.AddEntityFrameworkSqlServer()
+        .AddDbContext<BancoContext>();
+}
