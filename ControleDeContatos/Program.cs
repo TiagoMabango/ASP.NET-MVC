@@ -1,4 +1,5 @@
 using ControleDeContatos.Data;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,11 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+void Configuration(IConfiguration configuration)
+{
+    IConfiguration Configuration = configuration;
+}
 
 void ConfigureServices(IServiceCollection services)
 {
